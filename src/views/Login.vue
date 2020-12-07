@@ -11,10 +11,14 @@
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <button type="submit" class="btn button btn-lg btn-primary">Entrar</button><br/>
-            <span><router-link to="/recuperarsenha">Esqueci minha senha</router-link>
-            </span>
-            <span>Ainda não possui um cadastro? <router-link to="/register">Clique aqui</router-link>
-            </span>
+            <div class="info">
+                <span>
+                <router-link to="/recuperarsenha">Esqueci minha senha</router-link>
+                </span>
+                <span>Ainda não possui um cadastro? <router-link to="/register">Clique aqui</router-link>
+                </span>
+            </div>
+            
         </form>
     </div>
 </template>
@@ -25,7 +29,24 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.box {
+    max-width: 700px;
+    margin: 0 auto; height: 100vh;
+}
+.button {
+    margin: 0 auto;
+}
+span {
+    display: block;
+    text-align: center;
+}
+a {
+    color:blue;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
 
 </style>

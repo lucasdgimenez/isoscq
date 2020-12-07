@@ -17,5 +17,23 @@ export default {
 </script>
 
 <style scoped>
-
+.box {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+}
+.button {
+    margin: 0 auto;
+}
+span {
+    display: block;
+    text-align: center;
+}
+a {
+    color:blue;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
 </style>
