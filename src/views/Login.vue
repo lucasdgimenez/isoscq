@@ -10,7 +10,8 @@
                 <label for="exampleInputPassword1">Senha</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn button btn-lg btn-primary">Entrar</button><br/>
+                <router-link class="btn button btn-lg btn-primary entrar" to="/dashboard">Entrar</router-link>
+            <br/>
             <div class="info">
                 <span>
                 <router-link to="/recuperarsenha">Esqueci minha senha</router-link>
@@ -25,7 +26,7 @@
 
 <script>
 export default {
-    
+ 
 }
 </script>
 
@@ -40,6 +41,9 @@ export default {
 span {
     display: block;
     text-align: center;
+}
+.entrar {
+    color: white;
 }
 a {
     color:blue;

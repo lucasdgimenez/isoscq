@@ -1,6 +1,8 @@
 <template>
-    <div class="content-wrapper d-flex flex-column dois">
-        <div id="content">
+    
+    <div class="box">
+        <Menu class="menu"/>
+            <div id="content">
             <Header/>
             <div class="box">
                 <div class="container-fluid">
@@ -80,24 +82,36 @@
                     </div>
                 </div>       
             </div>
-            <Graphic/>
-        </div>
+                <Graphic/>
+            </div>        
     </div>
 </template>
 
 <script>
 import Header from "./Header"
+import Menu from "./../components/Menu"
 import Graphic from "./../components/Graphic"
 
 export default {
     components: {
-        Header, Graphic
+        Header, Menu, Graphic
     }
     
 }
 </script>
 
 <style scoped>
+.box {
+    display: flex;
+}
+.menu {
+  background:#4E73DF;
+  flex: 1;
+}
+#content {
+  flex: 4;
+  background-color:#EBECEF;
+}
 .row {
   margin-top: 20px;
 }

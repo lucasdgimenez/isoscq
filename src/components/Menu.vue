@@ -98,8 +98,8 @@
           </a>
           <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-              <a href="#" class="collapse-item">22323232</a>
-              <a href="#" class="collapse-item">dfdfdfdd</a>
+              <router-link to="/login" class="collapse-item">Item 1</router-link>
+              <router-link to="/newpassword" class="collapse-item">Item 2</router-link>
             </div>
           </div>
         </li>
