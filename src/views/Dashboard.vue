@@ -82,7 +82,11 @@
                     </div>
                 </div>       
             </div>
-                <Graphic/>
+            <section class="row container">
+                <Graphic class="graphic_one"/>
+                <GraphicTwo class="graphic_two"/>
+            </section>
+                
             </div>        
     </div>
 </template>
@@ -91,10 +95,11 @@
 import Header from "./Header"
 import Menu from "./../components/Menu"
 import Graphic from "./../components/Graphic"
+import GraphicTwo from "./../components/GraphicTwo"
 
 export default {
     components: {
-        Header, Menu, Graphic
+        Header, Menu, Graphic, GraphicTwo
     }
     
 }
@@ -158,5 +163,6 @@ export default {
   flex-basis: 0;
     flex-grow: 1;
 }
+
 
 </style>
