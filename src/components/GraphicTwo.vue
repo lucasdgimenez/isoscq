@@ -33,7 +33,7 @@
                         <i class="fas fa-circle text-success"></i> Social
                     </span>
                     <span class="mr-2">
-                        <i class="fas fa-circle text-info"></i> Referral
+                        <i class="fas fa-circle text-danger"></i> Referral
                     </span>
                 </div>
             </div>
@@ -49,7 +49,7 @@ export default {
             datasets: [
                 {
                     data: [55, 30, 15],
-                    backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
+                    backgroundColor: ['#4e73df', '#1cc88a', 'red'],
                     hoverBorderColor: "rgba(234, 236, 244, 1)"
                 }
             ],

@@ -36,14 +36,27 @@
             </div>
             <br>
             <button type="submit" class="btn button btn-lg btn-primary">Concluir cadastro</button><br/>
-
+            <div class="info">
+                <span>
+                <router-link to="/recuperarsenha">Esqueci minha senha</router-link>
+                </span>
+                <span>Já possui um cadastro <router-link to="/login">Fazer login</router-link>
+                </span>
+            </div>
         </form>
         
     </div>
 </template>
 
 
-<style>
+<style scoped>
+a {
+    color:blue;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
 
 
 </style>

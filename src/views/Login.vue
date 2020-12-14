@@ -16,7 +16,7 @@
                 <span>
                 <router-link to="/recuperarsenha">Esqueci minha senha</router-link>
                 </span>
-                <span>Ainda não possui um cadastro? <router-link to="/register">Clique aqui</router-link>
+                <span>Ainda não possui um cadastro? <router-link to="/cadastro">Clique aqui</router-link>
                 </span>
             </div>
             

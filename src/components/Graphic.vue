@@ -23,7 +23,7 @@
             <!-- Card Body -->
             <div class="card-body">
                 <div class="chart-area">
-                    <line-chart :data="chartData" label="Earnings"></line-chart>
+                    <line-chart :data="chartData" :option="option" label="Earnings"></line-chart>
                 </div>
             </div>
         </div>
@@ -48,9 +48,26 @@ export default {
                     'Oct': 30000,
                     'Nov': 25000,
                     'Dez': 40000
+            },
+            option: {
+                tooltips: {
+                backgroundColor: "rgb(255,255,255)",
+                bodyFontColor: "#858796",
+                titleMarginBottom: 10,
+                titleFontColor: '#6e707e',
+                titleFontSize: 14,
+                borderColor: '#dddfeb',
+                borderWidth: 1,
+                xPadding: 15,
+                yPadding: 15,
+                displayColors: false,
+                intersect: false,
+                mode: 'index',
+                caretPadding: 10
+                }
             }
         }
-  }
+    }
 }
 </script>
 

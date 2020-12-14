@@ -25,9 +25,9 @@
           </a>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-              <a href="#" class="collapse-item">Certificado ISO PERSA (Portugues)</a>
+              <a href="#" class="collapse-item">Certificado ISO PERSA<br/> (Portugues)</a>
               <a href="#" class="collapse-item">Certificado ISO PERSA (Ingles)</a>
-              <a href="#" class="collapse-item">Certificado ISO MB STEC (Portugues)</a>
+              <a href="#" class="collapse-item">Certificado ISO MB STEC<br/> (Portugues)</a>
               <a href="#" class="collapse-item">Certificado ISO MB STEC (Ingles)</a>
               <a href="#" class="collapse-item">Controle do processo e produto</a>
               <a href="#" class="collapse-item">Descrição de cargo</a>
@@ -51,7 +51,7 @@
               <a href="#" class="collapse-item">Analise critica pela direção</a>
               <a href="#" class="collapse-item">Auditoria do SGI</a>
               <a href="#" class="collapse-item">Auditoria casa limpa</a>
-              <a href="#" class="collapse-item">Calibração de equipamentos de medição</a>
+              <a href="#" class="collapse-item">Calibração de equipamentos de<br/> medição</a>
               <a href="#" class="collapse-item">Controle de 8D</a>
               <a href="#" class="collapse-item">Controle de provedores</a>
               <a href="#" class="collapse-item">Controle de recebimento</a>
@@ -207,8 +207,8 @@ body {
   margin: 0 1rem;
 }
 .sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
-  padding: .5rem 1rem;
-  margin: 0 .5rem;
+  padding: .5rem 0rem;
+  margin: 0 1rem;
   display: block;
   color: #3a3b45;
   text-decoration: none;
