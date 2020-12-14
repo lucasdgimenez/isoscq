@@ -4,6 +4,7 @@ import Login from "@/views/Login";
 import Recover from "@/views/Recover";
 import NewPassword from "@/views/NewPassword"
 import Dashboard from "@/views/Dashboard"
+import Cadastro from "@/views/Cadastro"
 
 Vue.use(Router);
 
@@ -24,6 +25,10 @@ export default new Router({
         {
             path: "/newpassword",
             component: NewPassword
+        },
+        {
+            path: "/cadastro",
+            component: Cadastro
         }
     ]
 })
