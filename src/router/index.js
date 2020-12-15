@@ -5,6 +5,7 @@ import Recover from "@/views/Recover";
 import NewPassword from "@/views/NewPassword"
 import Dashboard from "@/views/Dashboard"
 import Cadastro from "@/views/Cadastro"
+import ControleProcessoProduto from "@/views/ControleProcessoProduto"
 
 Vue.use(Router);
 
@@ -33,6 +34,10 @@ export default new Router({
         {
             path: "/cadastro",
             component: Cadastro
+        },
+        {
+            path: "/controleprocessoproduto",
+            component: ControleProcessoProduto
         }
     ]
 })

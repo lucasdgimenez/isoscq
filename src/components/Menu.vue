@@ -25,11 +25,11 @@
           </a>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-              <a href="#" class="collapse-item">Certificado ISO PERSA<br/> (Portugues)</a>
+              <a href="https://drive.google.com/file/d/1TXAf2qW4TtbB54gZ6vuPpiZh6DObG4MV/view?usp=sharing" class="collapse-item" target="_blank">Certificado ISO PERSA<br/> (Portugues)</a>
               <a href="#" class="collapse-item">Certificado ISO PERSA (Ingles)</a>
               <a href="#" class="collapse-item">Certificado ISO MB STEC<br/> (Portugues)</a>
               <a href="#" class="collapse-item">Certificado ISO MB STEC (Ingles)</a>
-              <a href="#" class="collapse-item">Controle do processo e produto</a>
+              <router-link to="/controleprocessoproduto" class="collapse-item">Controle do processo e produto</router-link>
               <a href="#" class="collapse-item">Descrição de cargo</a>
               <a href="#" class="collapse-item">Gerenciamento de risco</a>
               <a href="#" class="collapse-item">Instruções de trabalho</a>
@@ -123,7 +123,7 @@
 
 <script>
 export default {
-    
+   
 }
 </script>
 
