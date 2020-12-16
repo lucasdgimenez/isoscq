@@ -1,5 +1,5 @@
 <template>
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion flex-column" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion flex-column" id="accordionSidebar" v-if="auth">
         <router-link to="/" class="sidebar-brand d-flex align-items-center justify-content-center" href="">
           <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
@@ -123,7 +123,11 @@
 
 <script>
 export default {
-   
+   data() {
+    return {
+      auth: true
+    }
+  },
 }
 </script>
 

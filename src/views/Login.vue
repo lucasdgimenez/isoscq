@@ -10,7 +10,7 @@
                 <label for="exampleInputPassword1">Senha</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-                <router-link class="btn button btn-lg btn-primary entrar" to="/dashboard">Entrar</router-link>
+                <router-link to="/dashboard/main" class="btn button btn-lg btn-primary entrar" @click="entrar">Entrar</router-link>
             <br/>
             <div class="info">
                 <span>
@@ -26,7 +26,21 @@
 
 <script>
 export default {
- 
+    data() {
+        return {
+            logado: false,
+        }
+    },
+    methods: {
+        entrar() {
+            this.logado = true;
+        }
+    },
+    watch: {
+        logado() {
+            
+        }
+    }
 }
 </script>
 
