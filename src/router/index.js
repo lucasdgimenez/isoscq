@@ -6,6 +6,7 @@ import NewPassword from "@/views/NewPassword"
 import Dashboard from "@/views/Dashboard"
 import Cadastro from "@/views/Cadastro"
 import ControleProcessoProduto from "@/views/ControleProcessoProduto"
+import GerenciamentoRisco from "@/views/GerenciamentoRisco"
 
 Vue.use(Router);
 
@@ -38,6 +39,10 @@ export default new Router({
         {
             path: "/controleprocessoproduto",
             component: ControleProcessoProduto
+        },
+        {
+            path: "/gerenciamentoriscos",
+            component: GerenciamentoRisco
         }
     ]
 })
