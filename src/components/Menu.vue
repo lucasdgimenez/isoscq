@@ -19,11 +19,11 @@
         </div>
 
         <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDoc" aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-folder-open"></i>
             <span>Documentos</span>
           </a>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div id="collapseDoc" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
               <a href="https://drive.google.com/file/d/1TXAf2qW4TtbB54gZ6vuPpiZh6DObG4MV/view?usp=sharing" class="collapse-item" target="_blank">Certificado ISO PERSA<br/> (Portugues)</a>
               <a href="https://drive.google.com/file/d/1TXAf2qW4TtbB54gZ6vuPpiZh6DObG4MV/view?usp=sharing" class="collapse-item" target="_blank">Certificado ISO PERSA (Ingles)</a>

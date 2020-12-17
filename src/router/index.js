@@ -37,6 +37,10 @@ export default new Router({
                     component: ControleProcessoProduto
                 },
                 {
+                    path: "/controleprocessoproduto/chapa",
+                    component: Chapa
+                },
+                {
                     path: "/gerenciamentoriscos",
                     component: GerenciamentoRisco,
                 }
@@ -54,11 +58,8 @@ export default new Router({
         {
             path: "/cadastro",
             component: Cadastro
-        },
-        {
-            path: "/controleprocessoproduto/chapa",
-            component: Chapa
         }
+        
     ]
 })
     
