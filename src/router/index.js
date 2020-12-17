@@ -8,6 +8,7 @@ import Cadastro from "@/views/Cadastro"
 import ControleProcessoProduto from "@/views/ControleProcessoProduto"
 import GerenciamentoRisco from "@/views/GerenciamentoRisco"
 import DashboardMain from "@/views/DashboardMain"
+import Chapa from "@/views/ControleProcessoProduto/Chapa"
 
 Vue.use(Router);
 
@@ -29,10 +30,11 @@ export default new Router({
                 {
                     path: ':main',
                     component: DashboardMain,
+                    
                 },
                 {
-                    path: "/controleprocessoproduto",
-                    component: ControleProcessoProduto,
+                    path: '/controleprocessoproduto',
+                    component: ControleProcessoProduto
                 },
                 {
                     path: "/gerenciamentoriscos",
@@ -52,6 +54,10 @@ export default new Router({
         {
             path: "/cadastro",
             component: Cadastro
+        },
+        {
+            path: "/controleprocessoproduto/chapa",
+            component: Chapa
         }
     ]
 })

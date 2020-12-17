@@ -8,7 +8,7 @@
         </router-link>
         <hr class="sidebar-divider my-0">
         <li class="nav-item">
-          <router-link class="nav-link" to="/dashboard">
+          <router-link class="nav-link" to="/dashboard/main">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span>
           </router-link>

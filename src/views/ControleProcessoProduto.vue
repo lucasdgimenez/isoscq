@@ -2,8 +2,8 @@
     <div class="container">
         <h1>Controle de processo e produto</h1>
         <div class="row">
-            <div class="col-sm">
-                <button class="btn btn-primary btn-lg btn-block">CPP 01 - Chapa</button>
+            <div class="col-sm" @click="click">
+                <router-link class="btn btn-primary btn-lg btn-block" to="/controleprocessoproduto/chapa">CPP 01 - Chapa</router-link>
             </div>
             <div class="col-sm">
                 <button class="btn btn-primary btn-lg btn-block">CPP 09 - Parafusaria</button>
@@ -97,13 +97,19 @@
             </div>
             
         </div>
-        
+        <router-view/>
     </div>
 </template>
 
 <script>
 export default {
-
+    data() {
+        return {
+        }
+    },
+    methods: {
+        
+    }
 }
 </script>
 
