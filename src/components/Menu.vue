@@ -117,6 +117,12 @@
             <span>Tables</span>
           </a>
         </li>
+
+        <hr class="d-none d-md-block"/>
+
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
         
       </ul>
 </template>
@@ -262,6 +268,65 @@ hr.sidebar-divider {
   height: 4.375rem;
   display: flex;
   align-items: center;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.sidebar #sidebarToggle {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar #sidebarToggle::after {
+  font-weight: 900;
+  content: '\f104';
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 0.1rem;
+}
+
+.sidebar #sidebarToggle:hover {
+  text-decoration: none;
+}
+
+.sidebar #sidebarToggle:focus {
+  outline: none;
+}
+
+.sidebar-light #sidebarToggle {
+  background-color: #eaecf4;
+}
+
+.sidebar-light #sidebarToggle::after {
+  color: #b7b9cc;
+}
+
+.sidebar-light #sidebarToggle:hover {
+  background-color: #dddfeb;
+}
+
+.sidebar-dark #sidebarToggle {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-dark #sidebarToggle::after {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-dark #sidebarToggle:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.sidebar-dark.toggled #sidebarToggle::after {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 </style>
