@@ -1,12 +1,12 @@
 <template>
     
     <div class="box">
-        <Menu class="menu"/>
-            <div id="content">
-            <Header/>
-            <router-view/>
-            
-            </div>        
+        <Menu/>
+        <div id="content">
+        <Header/>
+        <router-view/>
+        
+        </div>        
     </div>
 </template>
 
@@ -26,10 +26,7 @@ export default {
 .box {
     display: flex;
 }
-.menu {
-  background:#4E73DF;
-  flex: 1;
-}
+
 #content {
   flex: 4;
   background-color:#EBECEF;
