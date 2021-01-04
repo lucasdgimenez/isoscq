@@ -72,5 +72,11 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 768px) {
+  .chart-area {
+    height: 20rem;
+  }
+}
+
 
 </style>

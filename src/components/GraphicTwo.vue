@@ -81,5 +81,15 @@ export default {
 </script>
 
 <style scoped>
+.chart-pie {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+}
 
+@media (min-width: 768px) {
+  .chart-pie {
+    height: calc(20rem - 43px) !important;
+  }
+}
 </style>

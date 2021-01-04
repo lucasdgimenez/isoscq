@@ -9,6 +9,10 @@ import "chart.js"
 Vue.use(Chartkick.use(Chart))
 Vue.use(window.VueCharts)
 
+Vue.filter('dinheiro', valor => {
+	return `R$ ${parseFloat(valor).toFixed(2)}`.replace('.', ',')
+})
+
 Vue.config.productionTip = false
 
 new Vue({
