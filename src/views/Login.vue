@@ -10,7 +10,7 @@
                 <label for="exampleInputPassword1">Senha</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-                <router-link to="/dashboard/main" class="btn button btn-lg btn-primary entrar" @click="entrar">Entrar</router-link>
+                <router-link to="/dashboard" class="btn button btn-lg btn-primary entrar" @click="entrar">Entrar</router-link>
             <br/>
             <div class="info">
                 <span>

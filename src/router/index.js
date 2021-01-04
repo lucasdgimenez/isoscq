@@ -28,7 +28,7 @@ export default new Router({
             props: true,
             children: [
                 {
-                    path: ':main',
+                    path: '/',
                     component: DashboardMain,
                     
                 },
