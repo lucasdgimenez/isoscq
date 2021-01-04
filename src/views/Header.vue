@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
           <ul class="navbar-nav ml-auto">
-            <button class="mobile" @click="outMenu">Lanche</button>
+            <button class="mobile" @click="outMenu">Mobile</button>
             <li class="nav-item no-arrow d-sm-none"></li>
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
