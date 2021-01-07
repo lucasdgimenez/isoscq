@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Gerenciamento de Riscos</h1>
+        <h1>Gestão de Riscos</h1>
         <div class="row">
             <div class="col-sm">
                 <button class="btn btn-primary btn-lg btn-block">GRP 01 Alta direção</button>

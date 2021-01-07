@@ -6,7 +6,7 @@ import NewPassword from "@/views/NewPassword"
 import Dashboard from "@/views/Dashboard"
 import Cadastro from "@/views/Cadastro"
 import ControleProcessoProduto from "@/views/ControleProcessoProduto"
-import GerenciamentoRisco from "@/views/GerenciamentoRisco"
+import GestaoRisco from "@/views/GestaoRisco"
 import DashboardMain from "@/views/DashboardMain"
 import Chapa from "@/views/ControleProcessoProduto/Chapa"
 
@@ -23,31 +23,6 @@ export default new Router({
             component: Login
         },
         {
-            path: "/dashboard",
-            component: Dashboard,
-            props: true,
-            children: [
-                {
-                    path: '/',
-                    component: DashboardMain,
-                    
-                },
-                {
-                    path: '/controleprocessoproduto',
-                    component: ControleProcessoProduto
-                },
-                {
-                    path: "/controleprocessoproduto/chapa",
-                    component: Chapa
-                },
-                {
-                    path: "/gerenciamentoriscos",
-                    component: GerenciamentoRisco,
-                }
-            ]
-        },
-        
-        {
             path: "/recuperarsenha",
             component: Recover
         },
@@ -58,7 +33,32 @@ export default new Router({
         {
             path: "/cadastro",
             component: Cadastro
-        }
+        },
+        {
+            path: "/dashboard",
+            component: Dashboard,
+            props: true,
+            children: [
+                {
+                    path: '/',
+                    component: DashboardMain,    
+                },
+                {
+                    path: '/controleprocessoproduto',
+                    component: ControleProcessoProduto
+                },
+                {
+                    path: "/controleprocessoproduto/chapa",
+                    component: Chapa
+                },
+                {
+                    path: "/gestaoderiscos",
+                    component: GestaoRisco,
+                }
+            ]
+        },
+        
+       
         
     ]
 })

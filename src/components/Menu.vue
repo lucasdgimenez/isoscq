@@ -29,13 +29,13 @@
               <a href="https://drive.google.com/file/d/1TXAf2qW4TtbB54gZ6vuPpiZh6DObG4MV/view?usp=sharing" class="collapse-item" target="_blank">Certificado ISO PERSA <br/> (Ingles)</a>
               <a href="https://drive.google.com/file/d/1TXAf2qW4TtbB54gZ6vuPpiZh6DObG4MV/view?usp=sharing" class="collapse-item" target="_blank">Certificado ISO MB STEC<br/> (Portugues)</a>
               <a href="https://drive.google.com/file/d/1TXAf2qW4TtbB54gZ6vuPpiZh6DObG4MV/view?usp=sharing" class="collapse-item" target="_blank">Certificado ISO MB STEC<br/> (Ingles)</a>
+              <a href="#" class="collapse-item">Mapa dos processos</a>
+              <router-link to="/gestaoderiscos" class="collapse-item">Gestão de risco</router-link>
+              <a href="#" class="collapse-item">Requisitos partes <br/>  interessadas</a>
+              <a href="#" class="collapse-item">Procedimentos</a>
+              <a href="#" class="collapse-item">Instruções de trabalho</a>
               <router-link to="/controleprocessoproduto" class="collapse-item">Controle do processo e<br/> produto</router-link>
               <a href="#" class="collapse-item">Descrição de cargo</a>
-              <router-link to="/gerenciamentoriscos" class="collapse-item">Gerenciamento de risco</router-link>
-              <a href="#" class="collapse-item">Instruções de trabalho</a>
-              <a href="#" class="collapse-item">Mapeamento dos processos</a>
-              <a href="#" class="collapse-item">Procedimentos</a>
-              <a href="#" class="collapse-item">Requisitos partes <br/>  interessadas</a>
               <a href="#" class="collapse-item">Solda</a>
             </div>
           </div>

@@ -91,7 +91,7 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <router-link tag="button" class="btn btn-primary" to="/dashboard/main">
+                <router-link tag="button" class="btn btn-primary" to="/dashboard">
                     <i class="fas fa-home"></i>
                 </router-link>
             </div>
